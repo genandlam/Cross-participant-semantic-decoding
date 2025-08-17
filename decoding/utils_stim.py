@@ -5,7 +5,7 @@ import config
 from encoding.stimulus_utils import TRFile, load_textgrids, load_simulated_trfiles
 from encoding.dsutils import make_word_ds, make_semantic_model
 from encoding.interpdata import lanczosinterp2D
-from encoding.util import make_delayed
+from encoding.utils import make_delayed
 
 SKIP_WORDS = {}
 SKIP_WORDS["story"] = frozenset(["sentence_start", "sentence_end", "br", "lg", "ls", "ns", "sp"])
