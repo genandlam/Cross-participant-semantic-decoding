@@ -16,8 +16,9 @@ def get_wordseqs(stimuli, modality):
     """
     if modality == "story": pad = 5
     else: pad = 0
-    grids = load_textgrids(stimuli, os.path.join(config.DATA_TRAIN_DIR, f"{modality}_stimulus"))
-    with open(os.path.join(config.DATA_TRAIN_DIR, f"{modality}_respdict.json"), "r") as f:
+    base = os.path.join(config.DATA_DIR, "derivative/TextGrids")
+    grids = load_textgrids(stimuli,base)
+    with open(os.path.join(config.DATA_DIR, "derivative/respdict.json"), "r") as f:
         respdict = json.load(f)
     trfiles = load_simulated_trfiles(respdict, pad = pad)
     wordseqs = make_word_ds(grids, trfiles, bad_words = SKIP_WORDS[modality])
