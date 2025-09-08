@@ -19,6 +19,7 @@ STORIES = [
     #["singlewomanseekingmanwich", "whenmothersbullyback", "superheroesjustforeachother", "gpsformylostidentity", "catfishingstrangerstofindmyself", "christmas1940"],
     #["stumblinginthedark", "forgettingfear", "bluehope", "lifereimagined", "ifthishaircouldtalk", "againstthewind"]
 ]
+STORIES_test = "wheretheressmoke"
 
 # regions
 ROI_FRONTAL = ["superiorfrontal", "rostralmiddlefrontal", "caudalmiddlefrontal", "parsopercularis", "parstriangularis", "parsorbitalis", "lateralorbitofrontal", "medialorbitofrontal", "precentral", "paracentral", "frontalpole"] + ["rostralanteriorcingulate", "caudalanteriorcingulate"]

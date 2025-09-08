@@ -21,7 +21,8 @@ def get_resp(subject, stimuli, modality, stack = True, voxels = None):
 def get_resp_test(subject, voxels = None, repeat = "first"):
     """loads test response data
     """
-    subject_dir = os.path.join(config.DATA_DIR,  "derivative/preprocessed_data", subject)
+    subject_dir = os.path.join(config.DATA_DIR, "derivative/preprocessed_data/",subject)
+    #subject_dir = os.path.join(config.DATA_DIR,  "derivative/preprocessed_data", subject)
     #subject_dir = os.path.join(DATA_TEST_DIR, "test_response", subject)
     resp_path = os.path.join(subject_dir, "wheretheressmoke.hf5")
     hf = h5py.File(resp_path, "r")

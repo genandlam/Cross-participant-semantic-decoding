@@ -5,7 +5,8 @@ import numpy as np
 
 REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_LM_DIR = os.path.join(REPO_DIR, "data_lm")
-DATA_DIR ='/Users/genevievelam/Documents/GitHub/ds003020/'
+parent_dir = os.path.abspath(os.path.join(__file__ ,"../.."))
+DATA_DIR = os.path.join(parent_dir,'ds003020')
 DATA_TRAIN_DIR = os.path.join(REPO_DIR, "data_train")
 DATA_TEST_DIR = os.path.join(REPO_DIR, "data_test")
 RESULT_DIR = os.path.join(REPO_DIR, "results")

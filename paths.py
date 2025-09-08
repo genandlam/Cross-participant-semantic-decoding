@@ -10,7 +10,7 @@ ALIGNED_CORRS = os.path.join(config.RESULT_DIR, "cortex/aligned_bscorrs/%s.npy")
 ROI = os.path.join(config.RESULT_DIR, "cortex/roi/%s/%s.npy") # subject, region
 
 # reference data
-EM = os.path.join(config.RESULT_DIR, "encoding/%s/em.npy") # subject
+EM = os.path.join(config.RESULT_DIR, "encoding/%s") # subject
 WR = os.path.join(config.RESULT_DIR, "encoding/%s/wr.npy") # subject
 NULL = os.path.join(config.RESULT_DIR, "encoding/%s/null.npy") # subject
 
