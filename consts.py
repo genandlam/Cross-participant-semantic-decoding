@@ -8,7 +8,7 @@ MOVIES = [
     ["laluna", "float", "lifted", "wind", "theblueumbrella", "walle", "sintel", "up", "partlycloudy", "bao", "piper", "toystory2", "presto"]
 ]
 STORIES = [
-    ["alternateithicatom", "souls", "avatar", "legacy", "odetostepfather"], 
+    [ "alternateithicatom","avatar","howtodraw","legacy","life",  "myfirstdaywiththeyankees","naked","odetostepfather","souls", "undertheinfluence"],
     #["undertheinfluence", "howtodraw", "myfirstdaywiththeyankees", "naked", "life"], 
     #["stagefright", "tildeath", "sloth", "exorcism"], 
     #["haveyoumethimyet", "adollshouse", "inamoment", "theclosetthatateeverything", "adventuresinsayingyes", "buck"], 
